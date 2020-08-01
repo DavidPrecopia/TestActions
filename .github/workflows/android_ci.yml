@@ -1,4 +1,4 @@
-name: Android Build
+name: Android CI
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-
+    name: Run Unit Tests
     runs-on: ubuntu-latest
 
     steps:
@@ -18,4 +18,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew build
+      run: bash ./gradlew test --stacktrace
