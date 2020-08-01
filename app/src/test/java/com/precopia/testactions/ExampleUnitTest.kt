@@ -14,6 +14,6 @@ class ExampleUnitTest {
         val number = 10
         val answer = number * 2
 
-        assertEquals(MainLogic().doubleNumber(number), number)
+        assertEquals(MainLogic().doubleNumber(number), answer)
     }
 }
