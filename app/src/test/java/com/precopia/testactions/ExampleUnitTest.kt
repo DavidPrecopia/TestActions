@@ -1,8 +1,7 @@
 package com.precopia.testactions
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 class ExampleUnitTest {
     @Test
@@ -15,6 +14,6 @@ class ExampleUnitTest {
         val number = 10
         val answer = number * 2
 
-        assertEquals(MainLogic().doubleNumber(number), answer)
+        assertEquals(MainLogic().doubleNumber(number), number)
     }
 }
