@@ -7,6 +7,6 @@ import org.junit.Assert.*
 class SettingsLogicTest {
     @Test
     fun isNightModeEnabled() {
-        assertEquals(SettingsLogic().isNightModeEnabled(), false)
+        assertEquals(SettingsLogic().isNightModeEnabled(), true)
     }
 }
