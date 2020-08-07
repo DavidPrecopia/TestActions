@@ -9,13 +9,10 @@ class ExampleUnitTest {
         assertEquals(4, 2 + 2)
     }
 
-
-
-    @Test
     fun test() {
         val number = 10
         val answer = number * 2
 
-        assertEquals(MainLogic().doubleNumber(number), answer)
+        assertEquals(MainLogic().doubleNumber(number), number)
     }
 }
