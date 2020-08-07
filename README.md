@@ -1,3 +1,3 @@
-[![Android CI](https://github.com/DavidPrecopia/TestActions/workflows/Android%20CI/badge.svg)](https://github.com/DavidPrecopia/TestActions/blob/master/.github/workflows/android_ci.yml)
+![Android CI](https://github.com/DavidPrecopia/TestActions/workflows/Android%20CI/badge.svg)
 
 Practice working with GitHub Actions.
